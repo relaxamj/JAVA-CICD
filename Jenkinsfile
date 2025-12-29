@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/<username>/java-ci-cd.git'
+                git 'https://github.com/relaxamj/JAVA-CICD.git'
             }
         }
 
